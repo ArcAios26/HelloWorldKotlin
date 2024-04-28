@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         displayMessage("Hello World!!")
     }
 
-    fun displayMessage(message: String) {
+    private fun displayMessage(message: String) {
         tvMessage.text = message
     }
 }
